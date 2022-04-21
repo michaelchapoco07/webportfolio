@@ -1,0 +1,205 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #192841;
+    color: white;
+
+}
+
+/* .firstPart {
+    background-color: ;
+} */
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+
+}
+
+.navcolor:hover {
+    background-color: #555;
+    opacity: 0.8;
+
+}
+
+
+.secondPart {
+    height: 99vh;
+}
+
+
+.thirdPart {
+    height: 97vh;
+}
+
+.fourthPart {
+    height: 97vh;
+}
+
+
+.fifthPart {
+    height: 99vh;
+    background-image: url('Images/emailbg2.jpg');
+    background-size: 2000px;
+
+}
+
+
+.macpic {
+    height: 250px;
+    width: 250px;
+}
+
+.macpic img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+/* .macpic:before {
+    content: '';
+    right: -30px;
+    top: 30px;
+    border: 10px solid #5A74BE;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} */
+
+div h3 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.aboutmetext p {
+    color: #5A74BE;
+    font-size: 3.5vmin;
+}
+
+#name {
+    font-family: 'Moon Dance', cursive;
+    font-size: 6vmax;
+    margin-top: -100px;
+}
+
+#nameabout {
+    font-size: 4vmin;
+    color: #5A74BE;
+}
+
+.navcolor {
+    color: #5A74BE;
+}
+
+/* #name {
+    width: 38%;
+    box-shadow: 7px 7px 7px orange;
+    transition: all 0.3s ease;
+}
+
+#name:hover {
+    transform: translate(5px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+} */
+
+.firstCapimg {
+    position: relative;
+    width: 350px;
+}
+
+.firstCapimg img {
+    display: block;
+    width: 100%;
+    border: solid #40BFB2;
+}
+
+.firstCapimgOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 3px;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.firstCapimgOverlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.firstCapimgOverlay:hover {
+    opacity: 1;
+}
+
+.fCotitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.firstCapimgOverlay:hover>* {
+    transform: translateY(0px);
+}
+
+.fCotitle button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vmin;
+    opacity: 0.7;
+
+}
+
+
+
+.secondCapimg {
+    width: 300px;
+    box-shadow: 7px 7px 7px #5A74BE;
+    transition: all 0.3s ease;
+}
+
+.secondCap img:hover {
+    border: solid #40BFB2;
+    transform: translate(5px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.thirdCap img {
+    width: 300px;
+    box-shadow: 7px 7px 7px #5A74BE;
+    transition: all 0.3s ease;
+}
+
+.thirdCap img:hover {
+    border: solid #40BFB2;
+    transform: translate(5px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.titleProjects {
+    color: #fff;
+    font-size: 40px;
+}
+
+.titleContact {
+    color: #fff;
+    font-size: 50px;
+}
+
+
+#fbicon:hover {
+    color: blue;
+}
