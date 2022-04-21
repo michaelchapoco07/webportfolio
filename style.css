@@ -77,6 +77,7 @@ div h3 {
 .aboutmetext p {
     color: #5A74BE;
     font-size: 3.5vmin;
+    text-align: left;
 }
 
 #name {
@@ -85,9 +86,21 @@ div h3 {
     margin-top: -100px;
 }
 
+#name:hover {
+    opacity: 0.6;
+    transition: all 0.3s ease;
+
+}
+
 #nameabout {
     font-size: 4vmin;
     color: #5A74BE;
+}
+
+#nameabout:hover {
+    opacity: 0.6;
+    transition: all 0.3s ease;
+
 }
 
 .navcolor {
